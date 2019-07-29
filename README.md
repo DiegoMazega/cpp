@@ -33,7 +33,9 @@ Selecione uma opcao de operaçao, então 2 valores de entrada.
 - M -> multiplicação\n 
 - D -> divisão. 
 _Ex: p 3 2, terá resultado igual a 5._
-as entradas podem ser na mesma linha, separadas pelo espaço ou em linhas diferentes
+as entradas podem ser na mesma linha, separadas pelo espaço ou em linhas diferentes.
+ele funciona em loop EOF
+para sair basta apertar **Ctrl+c**
 
 Notas: 
 * -Wall: Usamos para mostrar avisos que normalmente não iriam aparecer. Ajuda a achar erros e da sugestões.
