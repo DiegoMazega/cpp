@@ -31,7 +31,7 @@ int main (void){
             cout<<"Deseja Limpar a Tela?[y/n]"<<endl;
             cin>>choice;
             if(tolower(choice)=='y') system("clear");
-            cout<<"Selecione uma opção de operação, então 1 valor de entrada.\n S - seno\n C - cosseno\n T - tangente"<<endl;
+            cout<<"Selecione uma opção de operação, então 1 valor de entrada.\n S - seno\n C - cosseno\n T - tangente\n F - fatorial"<<endl;
         }
         cout<<"bye\n";
     }else cout<<"bye\n";
