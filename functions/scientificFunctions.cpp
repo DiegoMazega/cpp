@@ -4,6 +4,10 @@
 #include "../lib/ scientificFunctions.h"
 using namespace std;
 
+
+int fatorial(long int value1){
+   return value1? value1*fatorial(value1 -1):1;
+}
 double sen(double value1){
     long double seno = sin(value1);
     return seno;
@@ -35,6 +39,11 @@ double scientificCalc(char choice, double value1){
         case 't':
         cout<<fixed;
         cout<<setprecision(3)<<tng(value1)<<endl;
+        break;
+        
+        case 'f':
+        cout<<fixed;
+        cout<<setprecision(3)<<fatorial(value1)<<endl;
         break;
     default:
         break;
